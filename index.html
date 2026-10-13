@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="app-container">
+    
+    <div class="left-panel">
+      <div class="logo-slot">
+        <img src="./imgs/logo.svg" alt="">
+      </div>
+
+      <div class="main-weather">
+        <h1 id="temp">16°</h1>
+        <div class="city-info">
+          <h2 id="city-name">London</h2>
+          <p id="date-time">06:09 - Monday, 9 Sep '23</p>
+        </div>
+  
+        <div class="weather-icon-slot">
+          <img id="weather-icon" src="" alt="icon">
+        </div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      
+
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="Search Location...">
+   
+        <button id="search-btn"><img src="./imgs/fa_search.svg" alt=""></button>
+      </div>
+
+      <p class="section-title">Weather Details...</p>
+      <h3 id="weather-desc">THUNDERSTORM WITH LIGHT DRIZZLE</h3>
+
+      <ul class="details-list">
+        <li>
+          <span>Temp max</span>
+          <div class="detail-value">
+            <strong id="temp-max">19°</strong>
+            <span class="icon-slot"></span>
+          </div>
+        </li>
+        <li>
+          <span>Temp min</span>
+          <div class="detail-value">
+            <strong id="temp-min">15°</strong>
+            <span class="icon-slot"></span>
+          </div>
+        </li>
+        <li>
+          <span>Humidity</span>
+          <div class="detail-value">
+            <strong id="humidity">58%</strong>
+            <span class="icon-slot"></span>
+          </div>
+        </li>
+        <li>
+          <span>Cloudy</span>
+          <div class="detail-value">
+            <strong id="clouds">86%</strong>
+            <span class="icon-slot"></span>
+          </div>
+        </li>
+        <li>
+          <span>Wind</span>
+          <div class="detail-value">
+            <strong id="wind">5km/h</strong>
+            <span class="icon-slot"></span>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+
+  <script src="scripti.js"></script>
+</body>
+</html>
